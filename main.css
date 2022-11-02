@@ -1,10 +1,12 @@
-.banner {
+.boddy {
   background-image: url("pp.jpg") no-repeat center center;
   background-size: cover;
   padding-top: 20%;
   padding-bottom: 20%;
   color: white;
 }
+
+
 
 .lingkaran {
   display: inline-block;
