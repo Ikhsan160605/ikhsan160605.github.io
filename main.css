@@ -1,114 +1,22 @@
-* {
-    scroll-behavior: smooth;
-}
-body {
-    font-family: "Open Sans", sans-serif;
-    background: rgb(255, 229, 210);
-}
-
-.navbar-brand  {
-    font-size: 30px;
-    font-weight: 800px;
-    float: left;
-    font-family: courier;
-    color: 364F6B;
-  }
-
-  .navbar ul li {
-    margin-left: 50px;
-  }
-
-.nav-item .nav-link {
-    font-weight: bold;
-    color: #364f6b;
-    font-size: 16px;
+.banner {
+  background: url("https://telegra.ph/file/1627c3166a68a86d55f01.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  color: white;
 }
 
-
-
-  #btn-sign-up {
-    padding: 10px 30px;
-    background: #3f72af;
-    border-radius: 20px;
-    color: #ffffff;
-    cursor: pointer;
-    font-weight: bold;
-  }
-
-  .profil {
-    margin-top: 120px;
-  }
-
-  .profil img {
-    width:400px;
-    height: 400px;
-  }
-
-  .profil .deskripsi {
-    font-size: 20px;
-    font-weight: bold;
-    font-family: "comic sans ms";
-    color: #364f6b;
-  }
-
-
-  .profil h2 {
-    font-family: "comic sans ms";
-    font-weight: 800;
-    font-size: 45px;
-    bottom: 20px;
-    color: #364f6b;
-    width: 100%;
-    line-height: 50px;
-  }
-  a.tbl-pink {
-    background: #fc5185;
-    border-radius: 20px;
-    margin-top: 20px;
-    padding: 15px 20px 15px 20px;
-    color: #ffffff;
-    cursor: pointer;
-    font-weight: bold;
-  }
-  
-  a.tbl-pink:hover {
-    background: #3f72af;
-    text-decoration: none;
-  }
-
-
-  .kartu-tentang img {
-    border-radius: 50%;
-    box-shadow: 5px 5px 5px #333;
-    width: 40%;
-    /* width: 500px;
-    height: 500px; */
-  }
-  
-  
-  
-  .kartu-tentang p {
-    font-family: "comic sans ms";
-    font-weight: 800;
-    font-size: 25px;
-    text-align: center;
-    color: #364f6b;
-  }
-
-  @media screen and (max-width:376px){
-    .navbar ul li {
-        margin-left: -50px;
-      }
-
-      .kartu-tentang img {
-        border-radius: 50%;
-        box-shadow: 5px 5px 5px #333;
-        width: 200px;
-        height: 200px;
-      }
-      
-
-      
-      
+.lingkaran {
+  display: inline-block;
+  border-radius: 50%;
+  width: 150px;
+  margin: auto;
+  height: 150px;
+  color: #fff;
+  background-color: #dc3545;
 }
-  
+
+.lingkaran i {
+  position: relative;
+  top: 30px;
+}

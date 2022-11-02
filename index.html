@@ -1,145 +1,80 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    <link rel="icon" type="gambar/x-icon" href="gambar/vektor gw1.jpg" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="responsive.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <title>Tentang Saya</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Company Profiles</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/main.css" />
   </head>
   <body>
-   
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: rgba(255, 255, 255, 0.9); border-bottom: 2px solid black;">
-        <div class="container">
-        <a class="navbar-brand" href="#">Tentang Saya</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="material-icons" id="btn">subject</i>
-
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Company Profiles</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#minat">Minat Saya</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="https://instabio.cc/30930074SqIfQ/">Sosmed</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#tentang">Tentang</a>
-            </li>
-
-            <li class="nav-item active">
-                <a class="nav-link" href="https://ngl.link/christopher19088">Kontak</a>
-            </li>
-
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-                <a class="nav-link btn " id="btn-sign-up" href="#">Sign Up</a>
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
-            
+            <li class="nav-item">
+              <a class="nav-link" href="#link">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#ceklayanan">Layanan</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#dropdown" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Dropdown </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#action">Action</a></li>
+                <li><a class="dropdown-item" href="#another">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#something">Something else here</a></li>
+              </ul>
+            </li>
           </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
         </div>
-        </div>
-
-      </nav>
-
-
-      <main>
-
-        <div class="profil">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-sm-6 col-md-6" data-aos="fade-right">
-                    <center>
-                    <img src="assets/1.jpg" alt="">
-                    </center>
-
-                </div>
-                <div class="col-lg-6 col-sm-6 col-md-6" data-aos="fade-left">
-                    <p class="deskripsi">#Semangat_Ngoding</p>
-                    <h2>Semangat Ngoding</h2>
-                    <hr />
-                    <p class="ooo">Setiap hari, setiap malam selalu Ngoding. mencoba berbagai macam project dan bahasa pemrograman agar skill meningkat, dan ini termasuk jembatan saya untuk menjadi programmer</p>
-                    <p class="zzz"><a href="home.html" class="tbl-pink">Lihat selengkapnya...</a></p>
-                </div>
-            </div>
-        </div>
-        </div>
-
-
-        <div class="profil" id="minat">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-sm-6 col-md-6" data-aos="fade-right">
-                        <p class="deskripsi">#Semangat_Ngoding</p>
-                        <h2>Saya Juga Sangat Minat Dianime/Kartun Jepang</h2>
-                        <hr />
-                        <p class="ooo">Awal saya menyukai anime/kartun jepang itu pas saya masih kelas 6 SD dimana saya dan kaka saya ingin pergi membeli kaset horror/gore namun sang penjual kaset tersebut tiba-tiba menawarkan kaset yang berisi anime/kartun jepang dengan judul ATTACK ON TITAN.</p>
-                        <p class="zzz"><a href="home.html" class="tbl-pink">Pelajari Lebih Lanjut</a></p>
-
-    
-                    </div>
-                    <div class="col-lg-6 col-sm-6 col-md-6" data-aos="fade-left">
-                        
-                        <center>
-                            <img src="assets/mik.jpg" alt="">
-                        </center>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-
-        <div class="profil" id="tentang" data-aos="fade-up">
-            <div class="container">
-                <center>
-                <p class="deskripsi">Tentang Saya</p>
-                <h2>Tentang</h2>
-               
-                <hr />
-                <p>
-                  Perkenalkan nama saya Muhammad Ikhsan Nurfadilah umur saya 17 tahun dan zodiak saya Gemini. Saya membuat website ini karna ingin menciptakan sesuatu yang blom pernah saya buat,dan maaf juga website yang sabuat tidak terlalu
-                  sempurna karna saya belajar Otodidak yang dimana saya belajar dari sumber kesumber. Jika ingin lebih tahu silahkan klik tombol dibawah XD
-                </p>
-                <p><a href="" class="tbl-pink">Pelajari lebih lanjut...</a></p>
-            </center>
-            </div>
-        </div>
-<br>
-          <div class="tentang-list" data-aos="fade-up">
-            <center>
-            <div class="kartu-tentang">
-              <img class="img-kartu" src="assets/gw.jpg"/>
-              <br><br>
-              <p>Muhammad Ikhsan Nurfadilah</p>
-            </div>
-            </center>
-
+      </div>
+    </nav>
+    <div class="container-fluid banner">
+      <div class="container text-center">
+        <h4 class="display-6">Selamat Datang DiWebsite Kami</h4>
+        <h3 class="display-1">Hai! Halo!!</h3>
+        <a href="#ceklayanan">
+          <button type="button" class="btn btn-danger btn-lg">Cek Layanan</button>
+        </a>
+      </div>
+    </div>
+    <div class="container-fluid layanan pt-5 pb-5">
+      <div class="container text-center">
+        <h2 class="display-3" id="ceklayanan">Layanan</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error corrupti assumenda doloremque quis quod et ut quas fuga aliquid, debitis dolor in numquam. Perspiciatis hic nam sunt sed in? Ab!</p>
+        <div class="row pt-4">
+          <div class="col-md-4">
+            <span class="lingkaran"><i class="fas fa-code fa-5x"></i></span>
+            <h3 class="mt-3">Programming</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore assumenda error quos ratione nulla. Minima aliquam quis libero velit accusamus.</p>
           </div>
-
-        
-      </main>
-
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
-    -->
+          <div class="col-md-4">
+            <span class="lingkaran"><i class="fas fa-palette fa-5x"></i></span>
+            <h3 class="mt-3">Design</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore assumenda error quos ratione nulla. Minima aliquam quis libero velit accusamus.</p>
+          </div>
+          <div class="col-md-4">
+            <span class="lingkaran"><i class="fas fa-network-wired fa-5x"></i></span>
+            <h3 class="mt-3">Networking</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore assumenda error quos ratione nulla. Minima aliquam quis libero velit accusamus.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>
 </html>
