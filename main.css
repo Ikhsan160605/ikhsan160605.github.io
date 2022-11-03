@@ -6,8 +6,6 @@
   color: white;
 }
 
-
-
 .lingkaran {
   display: inline-block;
   border-radius: 50%;
@@ -21,4 +19,8 @@
 .lingkaran i {
   position: relative;
   top: 30px;
+}
+
+.crop-img {
+  object-fit: cover;
 }
